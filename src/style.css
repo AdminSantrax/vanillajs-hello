@@ -1,5 +1,35 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+.main-header {border: 3px solid red;
+
+}
+
+
+.main-excuse{
+    border:3px solid blue;
+    display: block;
+    text-align: center;
+}
+#excuse{font-size: 40px;
+color: black;}
+
+
+
 
 body{
-    background: white;
+    background-color: grey;
+text-align: center}
+
+img{
+    height: 120px;
+    width: 200px;}
+
+#new-excuse-btn {
+    width: 250px;
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 12px 0;
+    border-radius: 10px;
+    background-color: green;
+    color: black;
+    border: none;
+    cursor: pointer;
 }
